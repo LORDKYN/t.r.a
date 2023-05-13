@@ -1,0 +1,137 @@
+$spantext : rgb(19, 56, 190);
+*{
+    font-family: 'gotham';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    text-transform: capitalize;
+}
+ 
+.shadow-box{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 18px;
+}
+
+.logo-image {
+    width: 100px;
+    scale: 0.5;
+    
+    :hover {
+        scale: 1;
+        transition: all 1s linear;
+    }
+}
+.c-nav {
+    width: 95vw;
+}
+.sign-btn {
+    background-color: $spantext;
+    width: 7vw;
+}
+
+span.buildweb {
+    color: $spantext;
+}
+.login-text {
+    color: $spantext;
+}
+.icons {
+    scale: 2;
+    
+    :hover {
+        scale : 1.5;
+        transition: scale 0.5s;
+    }
+}
+
+.head{
+    align-items: center;
+    text-align: center;
+
+}
+.bodycard {
+    text-transform: lowercase;
+}
+.text {
+    text-align: center;
+    opacity: 0.7;
+    
+}
+.mainline {
+    height: 400px;
+}
+.margin{
+    margin-left: 11px;
+}
+.option-icon {
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+.option {
+    margin-left: 5px;
+}
+.circle{
+    background-color: $spantext;
+    border-radius: 50%;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin: 5px 0px 0px 10px;
+
+}
+.check-icon {
+    scale: 2;
+}
+
+.card-icons{
+    
+    scale: 1.2;
+}
+.heart{
+    color: red;
+}
+.airbnb{
+    scale: 0.5;
+}
+.text-sub{
+    opacity: 0.4;
+}
+.weblogo{
+    width:fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.avatar-image {
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px black;
+}
+
+.avatar {
+    padding-bottom: 20px;
+    scale: 1;
+    box-shadow: 0px;
+    :hover {
+        scale: 1.5;
+        box-shadow: 0px 0px 15px black;
+        transition:all .3s cubic-bezier(0.59, -0.09, 0, 2.78)
+    }
+}
+.weblogo-text {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.git-install {
+    height: 100px;
+    color: #2ded2a;
+}
+.gift {
+    scale: 2;
+}
+

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "lobster";
+  src: url(./fonts/Lobster.ttf) format(truetype);
+  src: url(./fonts/Lobster.woff) format(woff);
+  src: url(./fonts/Lobster.woff2) format(woff2);
+}
+@font-face {
+  font-family: "tanha";
+  src: url(./fonts/tanha/dist/Tanha.woff2) format("woff2");
+  src: url(./fonts/tanha/dist/Tanha.woff) format("woff");
+  src: url(./fonts/tanha/dist/Tanha.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url(./fonts/gotham/Gotham-Black.woff2) format("woff2");
+  src: url(./fonts/gotham/Gotham-Black.woff) format("woff");
+}
