@@ -26,12 +26,16 @@ body{
 }
 .c-nav {
     width: 95vw;
-}
-.sign-btn {
-    background-color: $spantext;
-    width: 7vw;
+    
 }
 
+.sign-btn {
+    background-color: $spantext;
+    
+}
+.prog-img {
+    object-fit: cover;
+}
 span.buildweb {
     color: $spantext;
 }
@@ -39,6 +43,7 @@ span.buildweb {
     color: $spantext;
 }
 .icons {
+    display: inline;
     scale: 2;
     
     :hover {
@@ -70,8 +75,11 @@ span.buildweb {
     margin-bottom: 15px;
     opacity: 0.9;
 }
+.options {
+    margin: 40px 0 40px 0;
+}
 .option {
-    margin-left: 5px;
+    min-width: 230px;
 }
 .circle{
     background-color: $spantext;
@@ -79,11 +87,17 @@ span.buildweb {
     text-align: center;
     width: 70px;
     height: 70px;
-    margin: 5px 0px 0px 10px;
+   
 
 }
 .check-icon {
-    scale: 2;
+    scale: 1.9;
+}
+.check {
+
+    min-width: 329px;
+    max-width: 329px;
+    
 }
 
 .card-icons{
@@ -135,3 +149,18 @@ span.buildweb {
     scale: 2;
 }
 
+
+.border {
+    border: 0px !important;
+}
+
+.github {
+    max-width: 330px;
+    margin: auto;
+    
+}
+
+.margin-b {
+    margin-bottom: 40px;
+
+}
