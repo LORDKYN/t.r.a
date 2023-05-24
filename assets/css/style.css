@@ -169,4 +169,50 @@ span.buildweb {
   margin: auto;
 }
 
+.margin-b {
+  margin-bottom: 40px;
+}
+
+.custom-footer {
+  font-weight: 100;
+  height: 500px;
+  color: whitesmoke;
+  background: linear-gradient(to left, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-white {
+  background-color: whitesmoke;
+}
+
+.art {
+  color: rgb(19, 56, 190);
+}
+
+.icons-footer {
+  list-style: none;
+  padding-right: 20px;
+  scale: 1.3;
+}
+.icons-footer :hover {
+  scale: 1.5;
+  transition: all 0.2s ease-out;
+}
+
+.pfont {
+  font-size: small;
+}
+
+.text-decoration {
+  color: #fff;
+  text-decoration: none;
+}
+
+a .white-hover {
+  opacity: 0.4 !important;
+}
+a .white-hover :hover {
+  opacity: 1;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
